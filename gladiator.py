@@ -102,11 +102,8 @@ class Gladiator:
                 if die >= 3:
                     print(f"{attacker.name}'s unopposed die {die} causes a wound to {self.name}")
                     self.modify_attribute('gain_wound')
-    
-        print(f"{self.name}'s health: {self.health}")
 
 
-# Uncomment the code below if you want to run the combat when executing gladiator.py
-# if __name__ == "__main__":
-#     from game import attacker_tim, defender_tom
-#     attacker_tim.initiate_combat(defender_tom)
+if __name__ == "__main__":
+    print("This is the gladiator and combat mechanics used by the main game.")
+    quit()
